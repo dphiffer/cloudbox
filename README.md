@@ -36,6 +36,6 @@ Options:
 	data-description="Recorded in Chinatown using Coresound binaural omnidirectional microphones. Feb 23, 2006."
 	data-symbol="bus"
 	data-color="#271B1D"
-	data-size="small"
+	data-size="large"
 	class="marker">Canal &amp; Mulberry</a>
 ```
