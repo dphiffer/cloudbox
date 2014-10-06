@@ -2,7 +2,12 @@ Cloudbox
 ========
 Yet another sound map template built with SoundCloud + Mapbox
 
-Define the map HTML
+Download `cloudbox.html`
+------------------------
+
+To create a Cloudbox sound map, just [download `cloudbox.html`](https://raw.githubusercontent.com/dphiffer/cloudbox/master/cloudbox.html) (right click and choose Save Link As) and then modify the HTML. To make more substantial changes to how the map looks and behaves, you should [download the whole repository](https://github.com/dphiffer/cloudbox/archive/master.zip) and start from `cloudbox-dev.html` instead.
+
+Adjust the map HTML
 -------------------
 
 Options:
