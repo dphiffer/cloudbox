@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Cloudbox</title>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.css">
+    <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,700">
+    <link rel="stylesheet" href="src/cloudbox.css">
+  </head>
+  <body>
+    <div id="map" data-location="40.7127837,-74.0059413" data-zoom="12" data-style="examples.map-i86nkdio">
+      <a href="https://soundcloud.com/gregorywass/crowd-cheering-times-square" data-location="40.758895,-73.985131" data-description="Audio recording of small crowd with camera crew and Mtv talent early morning in Times Square. Recorded with Tascam iM2 stereo microphone adapter for iPhone and PCM Recorder app. Post production in Audacity." data-symbol="city" data-color="#F94E03" data-size="large" class="marker">crowd cheering, times square, new york, 11.5.13 (field recording)</a>
+      <a href="https://soundcloud.com/robbeard/clarinet-busker-on-the-high" data-location="40.747992,-74.004765" data-symbol="music" data-color="#C2EF01" data-size="large" class="marker">Clarinet busker on The High Line</a>
+      <a href="https://soundcloud.com/robbeard/staten-island-ferry-ambience" data-location="40.6436226,-74.0725003" data-symbol="ferry" data-color="#69D2E7" data-size="large" class="marker">Staten Island Ferry ambience</a>
+      <a href="https://soundcloud.com/chaoscope/new-york-union-square" data-location="40.7362513,-73.9903085" data-description="Summer. Outside, daylight. A street musician with his instruments seats in the shade under a tree in the western point of Union Square (nyc) playing unknown songs...What follows is a pause in a bar and its inhabitants talking about. No editing, minus minimal level correction. These audio-sketches are part of an ongoing sound/assemblage documenting Naples and New York. Recorded with MD Sony, Zoom digital recorder with a stereo microphone and in-ear binaural condenser mics." data-symbol="park2" data-color="#FFAD1F" data-size="large" class="marker">New York/ Union Square</a>
+      <a href="https://soundcloud.com/spenczar/canal-mulberry" data-location="40.71703,-73.998649" data-description="Recorded in Chinatown using Coresound binaural omnidirectional microphones. Feb 23, 2006." data-symbol="bus" data-color="#271B1D" data-size="large" class="marker">Canal &amp; Mulberry</a>
+      <a href="https://soundcloud.com/spenczar/sounds-at-forest-park-carousel" data-location="40.6977148,-73.8615762" data-symbol="playground" data-color="#490A3D" data-size="large" class="marker">Sounds at Forest Park Carousel</a>
+      <a href="https://soundcloud.com/jmf2525/nyc-6-train-going-past-abandoned-city-hall-station" data-location="40.712774,-74.006059" data-description="The 6 train switches from downtown to uptown at City Hall. As it loops around it goes past the famous abandoned City Hall station. The MTA used to kick everyone off the train before it looped, but now they don't. I held the door between cars open during the recording. Recorded on a Tascam DR-100 mkII." data-symbol="rail" data-color="#00933C" data-size="large" class="marker">NYC 6 Train Going Past Abandoned City Hall Station</a>
+    </div>
+    <div id="player"></div>
+    <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/v2.1.2/mapbox.js"></script>
+    <script src="https://api.tiles.mapbox.com/mapbox.js/plugins/leaflet-hash/v0.2.1/leaflet-hash.js"></script>
+    <script src="https://w.soundcloud.com/player/api.js"></script>
+    <script src="http://connect.soundcloud.com/sdk.js"></script>
+    <script src="src/cloudbox.js"></script>
+  </body>
+</html>
