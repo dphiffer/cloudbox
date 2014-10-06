@@ -19,7 +19,7 @@
 		var zoom = parseInt($('#map').data('zoom'));
 		var style = $('#map').data('style');
 		var map = L.mapbox.map('map', style)
-											.setView(center, zoom);
+		                  .setView(center, zoom);
 		var hash = L.hash(map);
 		$('#map a.marker').each(function(i, link) {
 			setupMarker(map, link);
