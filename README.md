@@ -1,6 +1,6 @@
 Cloudbox
 ========
-Yet another sound map template built with SoundCloud + Mapbox
+Yet another sound map template. A self-contained HTML file. Built with SoundCloud + Mapbox.
 
 Download cloudbox.html
 ----------------------
